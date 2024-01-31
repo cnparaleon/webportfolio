@@ -34,8 +34,8 @@
 			<section id="home" class="background-1 mt-3 mt-sm-0 mt-md-2 mt-lg-5 mt-xl-3 mx-5 mx-sm-0 mx-md-2 mx-xl-3 rounded">
 				<div class="d-flex flex-column align-items-center text-light">
 					<img src="./images/ustbeforegradphoto.jpg" class="mt-5 rounded-circle img-fluid border border-warning">
-					<h1 class="mb-3">Carlos Paraleon</h1>
-					<h2 class="mb-2">Full-Stack Web Developer</h2>
+					<h1 class="mb-3 text-center">Carlos Paraleon</h1>
+					<h2 class="mb-2 text-center">Full-Stack Web Developer</h2>
 					<p class="mb-5 w-50">Hi there! I'm a passionate Full Stack Web Developer specializing in the MERN stack. With a keen eye for user experience and a knack for seamless integration of MongoDB, Express.js, React, and Node.js, I transform ideas into dynamic, responsive web applications. Check out my portfolio to see firsthand how my passion translates into innovative and user-centric digital solutions.</p>
 				</div>
 			</section>
@@ -119,43 +119,45 @@
 
 				<div class="col-12 col-xxl-6 pb-lg-5 pb-sm-5">
 					<h2 class="m-3 text-center pb-lg-3 mb-xl-0">Message Us</h2>
-					<div class="mb-3">
-					  <label for="fullName" class="form-label">Full Name</label>
-					  <input type="input" class="form-control" id="fullName" placeholder="John Doe" required autocomplete>
-					</div>
-					<div class="mb-3">
-					  <label for="emailAddress" class="form-label">Email Address</label>
-					  <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" required autocomplete>
-					</div>
-					<div class="mb-3">
-					  <label for="message" class="form-label">Message</label>
-					  <textarea class="form-control" id="message" rows="3" required autocomplete></textarea>
-					</div>
+					<form action="https://www.google.com/">
+						<div class="mb-3">
+						  <label for="fullName" class="form-label">Full Name</label>
+						  <input type="input" class="form-control" id="fullName" placeholder="John Doe" required autocomplete>
+						</div>
+						<div class="mb-3">
+						  <label for="emailAddress" class="form-label">Email Address</label>
+						  <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" required autocomplete>
+						</div>
+						<div class="mb-3">
+						  <label for="message" class="form-label">Message</label>
+						  <textarea class="form-control" id="message" rows="3" required autocomplete></textarea>
+						</div>
 
-					<!-- Button trigger modal start -->
-					<div class="d-grid gap-2 mb-3">
-					  <button class="btn btn-outline-warning" type="button" data-bs-toggle="modal" data-bs-target="#send">Send</button>
-					</div>
-					<!-- Button trigger modal end -->
+						<!-- Button trigger modal start -->
+						<div class="d-grid gap-2 mb-3">
+						  <button class="btn btn-outline-warning" type="button" data-bs-toggle="modal" data-bs-target="#send">Send</button>
+						</div>
+						<!-- Button trigger modal end -->
 
-					<!-- Modal Start -->
-					<div class="modal fade" id="send" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-					  <div class="modal-dialog">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
-					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					      </div>
-					      <div class="modal-body text-dark">
-					        Message Successfully Sent!
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-					<!-- Modal Start -->
+						<!-- Modal Start -->
+						<div class="modal fade" id="send" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						      </div>
+						      <div class="modal-body text-dark">
+						        Message Successfully Sent!
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+						<!-- Modal Start -->
+					</form>
 				</div>
 			</div>
 		</section>

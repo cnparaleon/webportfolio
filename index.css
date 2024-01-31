@@ -1,0 +1,88 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+    /* Used for treating the white vertical line in sm, m screen sizes at the right side */
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Used for treating the white vertical line in sm, m screen sizes at the right side */
+section, footer, main{
+    overflow: hidden;
+    white-space: wrap;
+    word-break: break-word;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+nav div a {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+footer {
+    font-weight: 300;
+}
+
+#carlos {
+    font-weight: 500;
+}
+
+#home > div > p {
+    color: white;
+}
+
+.background-1 {
+	background-image: url("./images/gray-background-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*  img-fluid  */
+    max-width: 100%;
+    height: auto;
+}
+
+.background-2 {
+	background-image: url("./images/gray-background-2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*  img-fluid  */
+    max-width: 100%;
+    height: auto;
+}
+
+#home > div > img {
+    max-width: 20%; 
+    max-height: 20%;
+}
+
+#home > div > p {
+    text-align: justify;
+}
+
+#projects .card {
+    width: 27rem;
+}
+
+#projects .card-text {
+    text-align: justify;
+}
+
+#contact > div > a > img {
+    max-width: 45px;
+}
+
+/* this is from the google map style */
+#contact iframe {
+    border:0;
+}

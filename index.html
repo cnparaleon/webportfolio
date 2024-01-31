@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Carlos' Portfolio Website</title>
+
+		<!-- Bootstrap Link -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<!-- External CSS Link -->
+		<link rel="stylesheet" type="text/css" href="index.css">
+
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700;1,800&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<main id="landing" class="min-vh-100">
+			<!-- Navbar -->
+			<nav id="nav" class="bg-warning p-3">
+				<div class="d-flex justify-content-center d-grid gap-3">
+					<div><a href="#landing" class="text-decoration-none text-dark">Home</a></div>
+					<div><a href="#projects" class="text-decoration-none text-dark">Projects</a></div>
+					<div><a href="#landing" class="text-decoration-none text-dark" id="carlos">Carlos</a></div>
+					<div><a href="#tools" class="text-decoration-none text-dark">Tools</a></div>
+					<div><a href="#contact" class="text-decoration-none text-dark">Contact</a></div>
+				</div>
+			</nav>
+
+			<!-- Home -->
+			<section id="home" class="background-1 mt-3 mt-sm-0 mt-md-2 mt-lg-5 mt-xl-3 mx-5 mx-sm-0 mx-md-2 mx-xl-3 rounded">
+				<div class="d-flex flex-column align-items-center text-light">
+					<img src="./images/ustbeforegradphoto.jpg" class="mt-5 rounded-circle img-fluid border border-warning">
+					<h1 class="mb-3">Carlos Paraleon</h1>
+					<h2 class="mb-2">Full-Stack Web Developer</h2>
+					<p class="mb-5 w-50">Hi there! I'm a passionate Full Stack Web Developer specializing in the MERN stack. With a keen eye for user experience and a knack for seamless integration of MongoDB, Express.js, React, and Node.js, I transform ideas into dynamic, responsive web applications. Check out my portfolio to see firsthand how my passion translates into innovative and user-centric digital solutions.</p>
+				</div>
+			</section>
+		</main>
+
+		<!-- My Projects Section-->
+		<section id="projects" class="container-fluid text-center min-vh-100">
+			<h1 class="p-5">My Projects</h1>
+			<div class="row">
+				<div class="col-md-12 col-lg-4 h-100 d-flex align-items-center justify-content-center mb-5">
+					<div class="card">
+					  <img src="./images/fedesk.png" class="card-img-top">
+					  <div class="card-body">
+					    <p class="card-text">An application that organizes and centralizes data, manages document tracking, and serves as a communication platform in various academic and administrative units within the university.</p>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-md-12 col-lg-4 h-100 d-flex align-items-center justify-content-center mb-5">
+					<div class="card">
+					  <img src="./images/street-to-schools.png" class="card-img-top">
+					  <div class="card-body">
+					    <p class="card-text">A content management system that provides a systematic way to disseminate information about the organization and projects.</p>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-md-12 col-lg-4 h-100 d-flex align-items-center justify-content-center mb-5">
+					<div class="card">
+					  <img src="./images/project-earth.png" class="card-img-top">
+					  <div class="card-body">
+					    <p class="card-text">Project Earth is a cutting-edge educational app featuring a simulation game for interactive exploration of diverse landscapes and historical sites. Accessible on mobile, PC, and VR platforms, the app offers an immersive learning experience, making education accessible and enjoyable for users worldwide.</p>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Tools I Use Section -->
+		<section id="tools" class="min-vh-100 background-2">
+			<h1 class="text-center p-5 text-light">Tools I Use</h1>
+
+			<div class="mx-5 text-center mw-100">
+				<div class="d-flex flex-lg-column align-items-center justify-content-center" id="other-tools">
+				    <div class="d-lg-flex justify-content-center align-items-center" id="tools-1">
+				    	<img width="150" src="images/logo-html5.png"/>
+				    	<img width="150" src="images/logo-css3.png"/>
+				    	<img width="150" src="images/logo-javascript.png"/>
+				        <img width="150" src="images/logo-mongodb.png"/>
+				        <img width="150" src="images/logo-nodejs.png"/>
+				        <img width="150" src="images/logo-expressjs.png"/>
+				    </div>
+
+				    <div class="d-lg-flex justify-content-center align-items-center mt-3" id="tools-2">
+				    	<img width="150" src="images/logo-react.png"/>
+				    	<img width="150" src="images/logo-heroku.png"/>
+				        <img width="150" src="images/logo-git.png"/>
+				        <img width="150" src="images/logo-sublime-text-3.png"/>
+				        <img width="150" src="images/logo-postman.png"/>
+				        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+				    </div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Contact Section -->
+		<section id="contact" class="container min-vh-100" >
+			<h1 class="text-center p-5 py-sm-3 p-md-2 pt-lg-5">Contact</h1>
+			<div class="d-flex justify-content-center gap-5 pb-md-0">
+				<a href="https://www.facebook.com/carlos.paraleon.9/" target="_blank" class=""><img src="images/logo-facebook.png" class="img-fluid"></a>
+				<a href="https://www.linkedin.com/in/carlos-neil-paraleon-270579174/" target="_blank" class=""><img src="./images/logo-linkedin.png" class="img-fluid"></a>
+				<a href="https://gitlab.com/cnparaleon" target="_blank" class=""><img src="./images/logo-gitlab.png" class="img-fluid"></a>
+				<a href="https://github.com/cnparaleon" target="_blank" class=""><img src="./images/logo-github.png" class="img-fluid"></a>
+			</div>
+
+			<div class="row mt-3">
+				<div class="col-12 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+					<h2 class="m-3">Visit Us</h2>					
+					<iframe class="p-sm-5 pt-sm-0 pt-md-0 p-lg-0 pt-lg-3 pt-xl-0 mb-lg-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.8818723284812!2d120.99238658515782!3d14.567475568209924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9f293670793%3A0x4d8e08900ca6b815!2sGreen%20Residences!5e0!3m2!1sen!2sph!4v1706502691147!5m2!1sen!2sph" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>				
+
+				<div class="col-12 col-xxl-6 pb-lg-5 pb-sm-5">
+					<h2 class="m-3 text-center pb-lg-3 mb-xl-0">Message Us</h2>
+					<div class="mb-3">
+					  <label for="fullName" class="form-label">Full Name</label>
+					  <input type="input" class="form-control" id="fullName" placeholder="John Doe" required autocomplete>
+					</div>
+					<div class="mb-3">
+					  <label for="emailAddress" class="form-label">Email Address</label>
+					  <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" required autocomplete>
+					</div>
+					<div class="mb-3">
+					  <label for="message" class="form-label">Message</label>
+					  <textarea class="form-control" id="message" rows="3" required autocomplete></textarea>
+					</div>
+
+					<!-- Button trigger modal start -->
+					<div class="d-grid gap-2 mb-3">
+					  <button class="btn btn-outline-warning" type="button" data-bs-toggle="modal" data-bs-target="#send">Send</button>
+					</div>
+					<!-- Button trigger modal end -->
+
+					<!-- Modal Start -->
+					<div class="modal fade" id="send" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting us!</h5>
+					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					      </div>
+					      <div class="modal-body text-dark">
+					        Message Successfully Sent!
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Modal Start -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer Start -->
+		<footer class="bg-warning p-3">
+			<div class="d-flex flex-column justify-content-center align-items-center">
+				<div>Carlos Paraleon</div>
+				<div> &copy; All Rights Reserved 2024</div>
+			</div>
+		</footer>
+		<!-- Footer End -->
+
+		<!-- Bootstrap Script -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<!-- Bootstrap Script End-->
+	</body>
+</html>

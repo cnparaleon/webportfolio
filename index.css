@@ -92,6 +92,11 @@ ion-icon {
     font-size: 45px;
 }
 
+/* Hovering Effects */
 .contact-logo:hover {
     color: #ffc107 !important;
+}
+
+#nav > div > div > a:hover {
+    font-weight: 800;
 }

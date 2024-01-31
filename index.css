@@ -86,3 +86,12 @@ footer {
 #contact iframe {
     border:0;
 }
+
+ion-icon {
+    max-width: 45px;
+    font-size: 45px;
+}
+
+.contact-logo:hover {
+    color: #ffc107 !important;
+}
